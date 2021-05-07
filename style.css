@@ -1,0 +1,195 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    background-image: url(images/mall.jpg);
+    height: 100%;
+    overflow: auto;
+}
+
+/*============HEADER============*/
+
+#header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 80px;
+    background-image: url(images/wood-pg.jpg);
+    background-repeat: repeat-x;
+}
+
+#header img{
+    display: block;
+    margin: auto;
+    height: 70%;
+    padding-top: 15px; 
+}
+
+/*============TOPS-TABS============*/
+
+#tabs-tops{
+    position: fixed;
+    top: 80px;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+    background-color: coral;
+    display:flex;
+    justify-content: space-around;
+    padding-top: 10px;
+   
+}
+
+#tabs-tops a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+}
+#tabs-tobs a{
+    float: left;
+    display: block;
+    width: 33%;
+    height: 35px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+}
+
+/*==============MAIN-HOME==============*/
+
+#main-home{
+    margin-top: 120px;
+}
+
+/*==============ABOUT US==============*/
+
+#info-box-full{
+    background:rgba(255,255,255,.8);
+    width:90%;
+    display:block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 10px;
+}
+
+#info-box-full img{
+    width:100%;
+    
+}
+#info-box-full h3{
+    text-align: center;
+}
+
+#about{
+    background: rgba(255,255,255, .8);
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 10px;
+}
+
+/*============== MAIN ==============*/
+
+main{
+    margin-top: 119px;
+    background: url('images/mall-blur.jpg');
+    background-repeat: repeat-y;
+}
+
+#content{
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+
+/*============== INFO BOX ==============*/
+
+a.info-box{
+    text-decoration: none;
+    background: rgba(225, 225, 225, .8);
+    width: 90%;
+    height: 90px;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 1px;
+}
+
+.info-box img{
+    height: 70px;
+    margin: 10px;
+    float: left;
+}
+
+.info-box h3{
+    padding: 0;
+    margin-bottom: 0;
+    width: 90%;
+    color: #572800;
+}
+
+.info-box p{
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    color: #131313;
+}
+
+.info-box img.right{
+    float: right;
+    margin-top: 25px;
+    height: 40px;
+}
+
+/*============== INFO BOX ==============*/
+
+#info-box-full{
+    background-color: rgba(225,225,255, .8);
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 10px;
+    
+}
+#info-box-full{
+    background-color: rgba(225,225,255, .8);
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 10px;
+    
+}
+#info-box-full img{
+    min-width:100%;
+   
+}
+
+#info-box-full h3{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
